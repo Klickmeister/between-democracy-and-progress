@@ -1,6 +1,6 @@
 ---
 title: "Can Muslim universities be Indian universities? Muslim universities as agents of nation-building in post-independence India. "
-author: Laurence Gautier 
+author: Laurence Gautier
 from: "Centre des Sciences Humaines, Delhi"
 ---
 

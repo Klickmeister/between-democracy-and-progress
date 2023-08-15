@@ -1,6 +1,6 @@
 ---
 title: "Education and Democracy: A Marginalised Perspective on Inclusion"
-author: Sphoorti 
+author: Sphoorti
 from: Zakir Husain Centre for Educational Studies, Jawaharlal Nehru University, Delhi
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Priorities and Absences: The Place of Education in the Indian Developmental Imagination"
-author: Benjamin Zachariah 
+author: Benjamin Zachariah
 from: "Georg-Eckert-Institute, Braunschweig/Germany"
 ---
 

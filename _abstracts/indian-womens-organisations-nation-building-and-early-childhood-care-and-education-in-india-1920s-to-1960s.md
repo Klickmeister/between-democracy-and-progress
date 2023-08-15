@@ -1,6 +1,6 @@
 ---
 title: "Indian Women’s Organisations, Nation Building, and Early Childhood Care and Education in India, 1920s to 1960s"
-author: Jana Tschurenev 
+author: Jana Tschurenev
 from: "Centre for Modern Indian Studies, University of Göttingen, Germany)"
 ---
 

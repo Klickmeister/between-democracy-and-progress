@@ -1,6 +1,6 @@
 ---
 title: "Neither for Democracy nor for Progress: A critical analysis of Gandhi-Zakir Husain’s plan of Basic Education"
-author: Parimala Rao 
+author: Parimala Rao
 from: "Zakir Husain Centre for Educational Studies, Jawaharlal Nehru University, Dehli"
 ---
 

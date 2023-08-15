@@ -1,6 +1,6 @@
 ---
 title: "India’s educational future: Transnational networks and their debates during the 1950s"
-author: Lourens van Haaften 
+author: Lourens van Haaften
 from: "History of Education, University of Groningen/The Netherlands"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Claiming a place in the nation: Women on women’s education, 1940s to 1960s"
-author: Nandini Manjrekar 
+author: Nandini Manjrekar
 from: "School of Education, Tata Institute of Social Sciences/Bombay"
 ---
 

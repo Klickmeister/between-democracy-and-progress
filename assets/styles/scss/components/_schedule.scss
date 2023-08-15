@@ -31,6 +31,19 @@
         font-size: var(--m);
         line-height: var(--lh-normal);
       }
+
+      .vita{
+        padding-top: var(--fluid-space-s);
+
+        &:after{
+          content: " ";
+          width: 33%;
+          border-top: solid var(--border-width-m) var(--color-decoration);
+          display: block;
+          margin-top: var(--fluid-space-s);
+          color: var(--color-decoration);
+        }
+      }
     }
   }
 

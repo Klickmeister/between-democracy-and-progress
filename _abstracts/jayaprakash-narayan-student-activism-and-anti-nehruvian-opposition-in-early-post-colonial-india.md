@@ -1,6 +1,6 @@
 ---
 title: "Jayaprakash Narayan, student activism and anti-Nehruvian opposition in Early Post-Colonial India"
-author: Daniel Kent Carrasco 
+author: Daniel Kent Carrasco
 from: "Instituto de Investigaciones Históricas, Universidad Autónoma de México/Mexico"
 ---
 

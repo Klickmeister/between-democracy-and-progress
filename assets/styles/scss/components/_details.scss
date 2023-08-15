@@ -1,0 +1,53 @@
+/* Details
+############################################################################ */
+details {
+  margin-left: var(--l);
+  transition: padding var(--tr-slow), margin var(--tr-slow), opacity var(--tr-medium);
+  padding-bottom: var(--fluid-space-s);
+
+  summary {
+    list-style: none;
+
+    & > h3 {
+      display: inline-block;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      display: inline-block;
+      color: var(--interaction-color);
+      margin-left: calc(var(--xl) * -1);
+
+      float: left;
+
+      @extend .icon;
+
+      content: "chevron_right";
+      font-size: var(--l);
+      font-weight: var(--fw-bold);
+      transition: transform ease-in-out 200ms;
+
+      color: var(--hu-accent-2);
+    }
+  }
+
+  &[open] {
+    padding-bottom: var(--l);
+    border-bottom: solid var(--border-width-l) var(--dark);
+    margin-bottom: var(--fluid-space-l);
+    opacity: 1 !important;
+
+    summary::before {
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.schedule-item:has(details[open]) > details {
+  opacity: var(--op-medium);
+}

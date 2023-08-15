@@ -1,6 +1,6 @@
 ---
 title: "Educating the Rural Folks: Mass Literacy Campaigns in the 1930s and 40s India"
-author: Arun Kumar 
+author: Arun Kumar
 from: "Modern British Imperial, Colonial, and Post-Colonial History, University of Nottingham/UK"
 ---
 

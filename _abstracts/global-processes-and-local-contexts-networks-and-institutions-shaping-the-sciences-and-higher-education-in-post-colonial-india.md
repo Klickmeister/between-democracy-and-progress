@@ -1,6 +1,6 @@
 ---
 title: "Global Processes and Local Contexts: Networks and Institutions Shaping the Sciences and Higher Education in Post-Colonial India"
-author: Dhruv Raina 
+author: Dhruv Raina
 from: "History of Science, Zakir Husain Centre for Educational Studies, Jawaharlal Nehru University/Delhi"
 ---
 

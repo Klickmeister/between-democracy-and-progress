@@ -23,6 +23,10 @@
                 <p>{{ abstract.author }}<span class="is-separator">//</span>{{ abstract.from }}</p>
                 <p><strong>{{ abstract.title }}</strong></p>
               </summary>
+
+              {% if abstract.vita %}
+              <p class="vita">{{ abstract.vita }} </p>
+              {% endif %}
               <p>{{ abstract.content | markdownify }} </p>
               
             </details>
