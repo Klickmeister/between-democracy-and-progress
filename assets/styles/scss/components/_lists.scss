@@ -1,0 +1,26 @@
+/* Definition List Inline
+###########################################################################  */
+
+.dl-inline{
+  margin-bottom: var(--fluid-space-s);
+  
+  dt{
+    display: inline;
+    font-weight: var(--fw-bold);
+
+    &::after{
+      content: ":";
+    }
+
+    &::before{
+      content: "";
+      height: var(--fluid-space-s);
+      display: block;
+    }
+  }
+
+  dd{
+    display: inline;
+    padding-bottom: var(--fluid-space-s);
+  }
+}

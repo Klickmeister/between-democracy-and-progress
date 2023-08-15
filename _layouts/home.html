@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<section>
+  <h2 id="about" title="About">About</h2>
+  {% include snippet.html snippet-id="hauptthema" show-title=false show-in-nav=true %}
+</section>
+
+<section class="has-separator">
+  <h2 id="schedule" title="Schedule">Schedule</h2>
+
+  <div class="section">
+    <h3>Thursday 26<sup>th</sup></h3>
+    {% include schedule.html content-source="schedule-day-1" %}
+  </div>
+  
+  <div class="section">
+    <h3>Friday 27<sup>th</sup></h3>
+    {% include schedule.html content-source="schedule-day-2" %}
+  </div>
+
+  <div class="section">
+    <h3>Saturday 27<sup>th</sup></h3>
+      {% include schedule.html content-source="schedule-day-3" %}
+  </div>
+</section>
+
+<section class="has-separator">
+  <h2>Details</h2>
+  {% include snippet.html snippet-id="registration" show-title=true hierachy-level=2 show-in-nav=true %}
+  {% include snippet.html snippet-id="kontakt" show-title=true hierachy-level=2 show-in-nav=true %}
+  {% include snippet.html snippet-id="venue" show-title=true hierachy-level=2 show-in-nav=true %}
+</section>

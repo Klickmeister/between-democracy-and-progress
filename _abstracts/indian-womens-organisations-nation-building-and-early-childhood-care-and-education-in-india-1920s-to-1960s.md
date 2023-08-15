@@ -1,0 +1,7 @@
+---
+title: "Indian Women’s Organisations, Nation Building, and Early Childhood Care and Education in India, 1920s to 1960s"
+author: Jana Tschurenev 
+from: "Centre for Modern Indian Studies, University of Göttingen, Germany)"
+---
+
+This paper analyses the efforts of Indian women’s organisations to professionalise and institutionalise early childhood care and education (ECCE) from the interwar period to the early postcolonial decades. It argues that the women’s movement played an essential role in the development of ECCE in India. Nationalist women argued that ECCE was the basis for universal education, for the formation of citizens, and hence for the building of the new nation. The male-led national education movement in the 1930s, and the colonial and postcolonial Indian governments in the 1940s all relied on women’s volunteer efforts for establishing a basic infrastructure of ECCE, and for training the personnel to run nursery schools, and rural child welfare centres. This reliance on civil society, and on women’s volunteer labour had a significant impact of the development of ECCE under post-colonial India’s ‘socialism of scarcity.’ As the paper shows, it led to a governmental neglect of ECCE, and a preference of grants-in-aid for volunteer training programs, and limited outreach initiatives.

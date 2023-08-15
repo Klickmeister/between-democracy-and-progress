@@ -1,0 +1,56 @@
+/* Schedule
+###########################################################################  */
+
+.schedule{
+
+  padding-top: var(--fluid-space-s);
+  padding-bottom: var(--fluid-space-s);
+
+  dl{
+    padding-bottom: var(--s);
+
+    dt{
+      font-weight: var(--fw-bold);
+    }
+
+    dd{
+      p, ul{
+        margin-bottom: 0;
+      }
+
+      p + p {
+        margin-top: var(--m);
+      }
+
+      p strong{
+        display: block;
+        color: var(--hu-blau-2);
+      }
+
+      h3{
+        font-size: var(--m);
+        line-height: var(--lh-normal);
+      }
+    }
+  }
+
+  @container (min-width: 40rem){
+    dl{
+      display: grid;
+      grid-template-columns: 18ch 1fr;
+
+      dt::before{
+        content: "";
+        display: block;
+        width: 33vw;
+        margin-bottom: var(--s);
+        border-top: solid var(--border-width-s) var(--dark);
+      }
+
+      dd{
+        padding-top: var(--s);
+        padding-bottom: var(--s);
+      }
+    }
+  }
+}

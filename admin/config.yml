@@ -1,0 +1,77 @@
+backend:
+  name: github
+  repo: Klickmeister/freiheit-und-gleichheit-in-der-bildungsgeschichte
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+collections:
+  - name: 'panel-hosts'
+    label: 'Panel Hosts & metadata'
+    folder: '_panel-hosts/'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Panel ID', name: 'panel-id', widget: 'string' }
+      - { label: 'Name des Hosts', name: 'host', widget: 'string' }
+      - { label: 'Hochschule des Hosts', name: 'from', widget: 'string' }
+      - { label: 'Raum', name: 'venue', widget: 'string' }
+  - name: 'panel-items'
+    label: 'Panel Items'
+    folder: '_panel-items/'
+    fields:
+      - { label: 'Speaker', name: 'speaker', widget: 'string' }
+      - { label: 'Organisation', name: 'from', widget: 'string' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Panel ID', name: 'panel-id', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', modes: ['raw'] }
+  - name: 'schedule-day-1'
+    label: 'Schedule Tag 1'
+    folder: '_schedule-day-1/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'date' }
+      - { label: 'Beginn', name: 'begin', widget: 'datetime' }
+      - { label: 'Ende', name: 'end', widget: 'string' }
+      - { label: 'Ort', name: 'venue', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: false, modes: ['raw'] }
+  - name: 'schedule-day-2'
+    label: 'Schedule Tag 2'
+    folder: '_schedule-day-2/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'date' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Ende', name: 'end', widget: 'string' }
+      - { label: 'Ort', name: 'venue', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: false, modes: ['raw'] }
+  - name: 'schedule-day-3'
+    label: 'Schedule Tag 3'
+    folder: '_schedule-day-3/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'date' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Ende', name: 'end', widget: 'string' }
+      - { label: 'Ort', name: 'venue', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: false, modes: ['raw'] }
+  - name: 'schedule-rahmenprogramm'
+    label: 'Schedule Rahmenprogramm'
+    folder: '_schedule-rahmenprogramm/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'date' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: false, modes: ['raw'] }
+  - name: 'keynote-speaker'
+    label: 'Keynote Speaker'
+    folder: '_keynote-speaker/'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Organisation', name: 'from', widget: 'string' }
+      - { label: 'URL für weitere Infos', name: 'external-info-url', widget: 'string', required: false }
+      - { label: 'CV', name: 'about', widget: 'markdown' }
+      - { label: 'Content', name: 'body', widget: 'markdown', modes: ['raw'] }
+  - name: 'content-snippets'
+    label: 'Content Schnippsel'
+    folder: 'content/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', modes: ['raw'] }

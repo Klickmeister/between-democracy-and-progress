@@ -1,0 +1,45 @@
+{% assign content-for-day=include.content-source %}
+{% assign items=site.[content-for-day] | sort: "begin" %}
+
+<div class="schedule">
+  {% for item in items %}
+  <dl class="schedule-item">
+    <dt>{{ item.begin | date: "%H:%M" }}{% if (item.end | strip_newlines) != "" %} – {{ item.end | date: "%H:%M" }}{% endif %}</dt>
+    {% assign content = item.content | strip_newlines | strip_html %}
+    {% if content == "" %}
+    {% assign content = item.title  %}
+    {% else %}
+    {% assign content = item.content %}
+    {% endif %}
+    <dd>
+      {% if item.speaker %}
+      <h3>{{ item.title }}</h3>
+      {% for speaker in item.speaker %}
+        {% for abstract in site.abstracts %}
+          {% if abstract.author == speaker %}
+            {% assign content = abstract.content %}
+            <details>
+              <summary>
+                <p>{{ abstract.author }}<span class="is-separator">//</span>{{ abstract.from }}</p>
+                <p><strong>{{ abstract.title }}</strong></p>
+              </summary>
+              <p>{{ abstract.content | markdownify }} </p>
+              
+            </details>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      
+      {% else %}
+
+      {% if item.get-more %}<a href="{{item.get-more}}">{% endif %}
+      {% if item.jump-to %}<a href="#{{item.jump-to}}">{% endif %}
+      {{ content | markdownify }}
+      {% if item.get-more %}</a>{% endif %}
+      {% if item.jump-to %}</a>{% endif %}
+      
+      {% endif %}
+    </dd>
+  </dl>
+  {% endfor %}
+</div>
