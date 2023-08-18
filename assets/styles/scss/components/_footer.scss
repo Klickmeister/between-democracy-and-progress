@@ -26,5 +26,11 @@
 
   .partner{
     max-width: var(--max-width-partner-col);
+
+    figcaption{
+      font-size: var(--xs);
+      line-height: var(--lh-tight);
+      margin-top: var(--xs);
+    }
   }
 }

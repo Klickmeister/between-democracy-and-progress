@@ -14,12 +14,13 @@
     }
 
     dd{
+
       p, ul{
         margin-bottom: 0;
       }
 
       p + p {
-        margin-top: var(--m);
+        margin-top: var(--xs);
       }
 
       p strong{
