@@ -8,8 +8,13 @@
 
   dl{
   
-    *{
-      font-family: var(--ff-headline);
+    summary{
+      margin-bottom: var(--m);
+      
+      *{
+        font-family: var(--ff-headline);
+        font-weight: var(--fw-bold);
+      }
     }
 
     dt{
@@ -20,6 +25,7 @@
 
       p, ul{
         margin-bottom: 0;
+        font-weight: var(--fw-light);
       }
 
       p + p {
