@@ -1,5 +1,5 @@
 :root {
-  --bfs: clamp(1rem, calc(0.5rem + 0.7vw), 1.5rem);
+  --bfs: clamp(1.2rem, calc(0.6rem + 0.7vw), 1.8rem);
   --half: calc(var(--bfs) / 2); // halbes geviert
   --quad: calc(var(--bfs) / 4); // viertel geviert
   --xxs: calc(var(--bfs) * 0.4);
@@ -55,10 +55,10 @@
   --color-hero-background: var(--hu-blau-1);
   --color-hero-text: var(--lightest);
 
-  --ff-normal: Verdana, Arial, sans-serif;
-  --ff-serif: Verdana, serif;
+  --ff-normal: Crimson, Verdana, Arial, sans-serif;
+  --ff-serif: Georgia, serif;
   --ff-code: Courier, monospace;
-  --ff-headline: Verdana, Verdana, Arial, monospace;
+  --ff-headline: DIN, Verdana, Verdana, Arial, monospace;
   --ff-icons: "MaterialIcons", serif;
 
   --fw-normal: 400;
@@ -67,6 +67,7 @@
   
   --lh-normal: 140%;
   --lh-tight: 110%;
+  --lh-headline: 100%;
   --lh-loose: 150%;
   
   --tr-fast: 0.2s;

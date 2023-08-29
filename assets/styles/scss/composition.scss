@@ -4,10 +4,17 @@ main > *:not(.hero) {
 
 section, .section{
   container-type: inline-size;
+
+  @media screen and (min-width: 40rem){
+    p{
+      padding-right: var(--fluid-space-l);
+    }
+  }
 }
 
 .section{
   padding-bottom: var(--fluid-space-m);
+
 }
 
 

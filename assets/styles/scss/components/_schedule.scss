@@ -7,7 +7,10 @@
   padding-bottom: var(--fluid-space-s);
 
   dl{
-    padding-bottom: var(--s);
+  
+    *{
+      font-family: var(--ff-headline);
+    }
 
     dt{
       font-weight: var(--fw-bold);
@@ -20,7 +23,7 @@
       }
 
       p + p {
-        margin-top: var(--xs);
+        
       }
 
       p strong{
@@ -44,6 +47,14 @@
           margin-top: var(--fluid-space-s);
           color: var(--color-decoration);
         }
+      }
+    }
+
+    details {
+      font-family: var(--ff-serif);
+
+      summary{
+        font-family: var(--ff-headline);
       }
     }
   }
