@@ -7,14 +7,13 @@
   padding-bottom: var(--fluid-space-s);
 
   dl{
-  
+    
+    *{
+      font-family: var(--ff-headline);
+    }
+
     summary{
       margin-bottom: var(--m);
-      
-      *{
-        font-family: var(--ff-headline);
-        font-weight: var(--fw-bold);
-      }
     }
 
     dt{
@@ -53,6 +52,10 @@
           margin-top: var(--fluid-space-s);
           color: var(--color-decoration);
         }
+      }
+
+      .abstract *{
+        font-family: var(--ff-serif);
       }
     }
 
