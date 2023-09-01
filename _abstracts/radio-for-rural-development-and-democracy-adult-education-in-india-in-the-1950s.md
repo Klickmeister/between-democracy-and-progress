@@ -1,7 +1,7 @@
 ---
 title: "Radio for Rural Development and Democracy: Adult Education in India in the 1950s"
 author: Taylor Sherman
-from: Department of International History, London School of Economics)
+from: Department of International History, London School of Economics
 vita: |
   Prof. Sherman, an American-born scholar, studied International Relations and History at the London School of Economics and obtained her PhD at Cambridge University. She is a historian of culture and politics in modern South Asia, particularly interested in conceptions of citizenship, belonging and minorities in Indian politics. Her current research project focuses on environmental regeneration and its links to policy, expert regimes, and cultural imaginative implications. Her most recent book publication: Nehru’s India: A History in Seven Myths (Princeton University Press, 2022)
 ---
