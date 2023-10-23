@@ -8,4 +8,4 @@ room: 2249a
 speaker: ["Taylor Sherman"]
 ---
 
-Taylor Sherman (International History, London School of Economics): **Radio for Rural Development and Democracy: Adult Education in India in the 1950s**
+Taylor Sherman (International History, London School of Economics): **Radio and Television for Development and Democracy: Adult Education in India in the 1950s and 1960s**
